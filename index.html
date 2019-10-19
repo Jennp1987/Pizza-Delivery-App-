@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0061)https://getbootstrap.com/docs/3.4/examples/jumbotron-narrow/# -->
+<!-- saved from url=(0060)https://getbootstrap.com/docs/3.4/examples/jumbotron-narrow/ -->
 <html lang="en">
 
 <head>
@@ -13,21 +13,17 @@
     <link rel="icon" href="https://getbootstrap.com/docs/3.4/favicon.ico">
     <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/jumbotron-narrow/">
 
-    <title>Peace O' Pie Online Order Form</title>
-
+    <title>Peace Pies Pizza Order Form</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./index_files/bootstrap.min.css" rel="stylesheet">
-
-    <!--MAIN CSS-->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./index_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="./index_files/jumbotron-narrow.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -44,11 +40,6 @@
 
     <div class="container">
         <div class="header clearfix">
-
-            <!--<svg></svg>-->
-            <!--<div id="logo" class="img-fluid"></div>-->
-            <!--<img class="img-fluid" src="images/logo13.png" alt="Peace O' Pie logo">-->
-
             <div id="logo">
                 <svg version="1.1" id="logo_group" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108 108" style="enable-background:new 0 0 108 108;" xml:space="preserve">
                     <style type="text/css">
@@ -80,7 +71,7 @@
                     </style>
                     <g>
                         <path class="st0" d="M81.4,105.6H26.9c-13.9,0-25.2-11.3-25.2-25.2V25.9c0-13.9,11.3-25.2,25.2-25.2h54.4
-                            c13.9,0,25.2,11.3,25.2,25.2v54.5C106.6,94.3,95.2,105.6,81.4,105.6z" />
+                          c13.9,0,25.2,11.3,25.2,25.2v54.5C106.6,94.3,95.2,105.6,81.4,105.6z" />
                         <path class="st1" d="M1.9,82l104.7-56.8c0,0-0.3-24.6-27.9-24.6L24.6,0.7c0,0-19.8,2.4-22.7,22.4V82z" />
                         <circle class="st2" cx="52.9" cy="52.8" r="33.9" />
                         <circle class="st1" cx="27.2" cy="58.3" r="1.6" />
@@ -111,7 +102,7 @@
                         <path class="st1" d="M24.9,44c0,0-0.5,1.2-0.4,1.4c0.1,0.3,26.1,7.7,26.1,7.7l-0.9-2L24.9,44z" />
                         <polygon class="st1" points="50.5,53.8 50,55.9 28,68 27.1,66.6 	" />
                         <path d="M52.7,18.3c-18.9,0-34.2,15.3-34.2,34.2c0,18.9,15.3,34.2,34.2,34.2c18.9,0,34.2-15.3,34.2-34.2
-                            C86.9,33.6,71.6,18.3,52.7,18.3z M52.7,81.6c-16,0-29-13-29-29s13-29,29-29s29,13,29,29S68.7,81.6,52.7,81.6z" />
+                          C86.9,33.6,71.6,18.3,52.7,18.3z M52.7,81.6c-16,0-29-13-29-29s13-29,29-29s29,13,29,29S68.7,81.6,52.7,81.6z" />
                         <path class="st2" d="M67.2,17.1c0,0,13.3,4.3,18,14.6l-26,14L67.2,17.1z" />
                         <circle class="st1" cx="70.9" cy="32.3" r="0.9" />
                         <circle class="st1" cx="79.6" cy="30.6" r="0.9" />
@@ -126,24 +117,90 @@
                     </g>
                 </svg>
             </div>
+            <!--END LOGO DIV-->
             <h1>Peace O' Pie</h1>
         </div>
+        <!--END HEADER CLEAR FIX DIV-->
+        <!--FIXED CONTAINER-->
+        <!--</div>-->
+        <!--END CONTAINER-->
+
         <span id="initialSpan">
-            <h3> Farm to Table Pizza Delivery</h3>
-            <div class="jumbotron">
-                <img class="img-fluid" src="images/pizza_bkground.png" alt="Peace O' Pie Gourmet Organic Pizza Delivery">
-                <h2 class="text-block">Click here to start your pizza order</h2>
+            <h3 class="tagline">Farm to Table Pizza Delivery</h3>
+            <div class="container">
+                <div class="jumbotron text-center" id="backgroundImage">
+                    <!--<img class="img-fluid" src="images/pizza_bkground.png" alt="Peace O' Pie Gourmet Organic Pizza Delivery">-->
+                    <!--<div class="positionText">-->
+                    <h2 class="text-block">Click here to start your pizza order</h2>
+                </div>
             </div>
         </span>
-        <!--<div class="col-3">
 
-        </div>-->
+        <!-- BEGINNING DELIVERY ROW-->
         <div class="row marketing">
-            <!--<div class="col-2" id="columnOne">
+            <div class="col-xs-1 col-sm-2 col-md-3"></div>
+            <div class="col-xs-10 col-sm-8 col-md-6">
+                <span id="deliverySpan">
+                    <h4>Delivery Location</h4>
+                    <label class='formLabels'>Name:</label>
+                    <!--<br>-->
+                    <input type="text" name="name" id="deliveryName"><span id="deliveryNameError"></span><br>
+                    <label class='formLabels'>Address Type:</label>
+                    <!--<br>-->
+                    <select id="deliveryAddressType" name="deliveryAddressType">
+                        <option value="selectAddress">--- Please Select ---</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="business">Business</option>
+                        <option value="campus">Campus</option>
+                        <option value="hotel">Hotel</option>
+                        <option value="dorm">Dorm</option>
+                        <option value="other">Other</option>
+                    </select><span id="deliveryAddressTypeError"></span><br>
+                    <div id="deliveryOtherAddress">
+                        <label class='formLabels' for="deliveryAddressKind">What type of Address?</label>
+                        <!--<br>-->
+                        <input type="text" id="deliveryAddressKind" /><br>
+                    </div>
+                    <label class='formLabels'>Street Address:</label>
+                    <!--<br>-->
+                    <input type="text" name="streetAddress" id="deliveryStreetAddress" class='selectionLabels'><span id="deliveryStreetAddressError"></span><br>
+                    <label class='formLabels'>Optional Apartment Number:</label>
+                    <!--<br>-->
+                    <input type="text" name="apartmentNumber" id="deliveryApartmentNumber"><br>
+                    <label class='formLabels'>Suite or Room Number:</label>
+                    <!--<br>-->
+                    <input type="text" name="suiteRoomNumber" id="deliverySuiteRoomNum"><br>
+                    <label class='formLabels'>City:</label>
+                    <!--<br>-->
+                    <input type="text" name="city" id="deliveryCity"><span id="deliveryCityError"></span><br>
+                    <label class='formLabels'>State:</label>
+                    <!--<br>-->
+                    <input type="text" name="state" id="deliveryState"><span id="deliveryStateError"></span><br>
+                    <label class='formLabels'>Zip Code:</label>
+                    <!--<br>-->
+                    <input type="text" name="zipCode" id="deliveryZip"><span id="deliveryZipError"></span><br>
+                    <label class='formLabels'>Phone Number:</label>
+                    <!--<br>-->
+                    <input type="tel" name="phonenumber" title="Ex: 555-555-5555" id="deliveryPhoneNumber"><span id="deliveryPhoneNumberError"></span><br>
+                    <label class='formLabels'>Email:</label>
+                    <!--<br>-->
+                    <input type="email" name="email" id="deliveryEmail"><span id="deliveryEmailError"></span><br>
+                    <br>
+                    <input type="button" id="verifyDeliveryAddress" value="Submit">
+                    <!--<hr>-->
+                </span>
+                <!--END COL SM 4-->
+            </div>
+            <!-- END DELIVERY ROW -->
+            <div class="col-xs-1 col-sm-2 col-md-3"></div>
+        </div>
 
-            </div>-->
-            <div class="col-lg-12">
-                <!--DETAILS SPAN-->
+        <!-- BEGIN ORDER DETAILS, DOUGH, ALL TOPPINGS, AND BILLING INFO ROW -->
+        <div class="row marketing">
+            <div class="col-xs-1 col-sm-2 col-md-1"></div>
+
+            <div class="col-xs-10 col-sm-3 col-sm-push-5 col-md-4 col-md-push-6">
                 <span>
                     <div id="orderDetails">
                         <span id="displayCost"></span>
@@ -164,268 +221,271 @@
                         <span id="toppingElevenOrderDetails">Onion + $.99</span>
                     </div>
                 </span>
-                <!--END DETAILS SPAN-->
-                <form id="orderPizzaForm" action="" method="post" onSubmit="'#'();">
-                    <span id="deliverySpan">
-                        <h4>Delivery Location</h4>
-                        <label>Name:</label>
-                        <input type="text" name="name" id="deliveryName"><span id="deliveryNameError"></span><br>
-                        <label>Address Type:</label>
-                        <select id="deliveryAddressType" name="deliveryAddressType">
-                            <option value="selectAddress">--- Please Select ---</option>
-                            <option value="house">House</option>
-                            <option value="apartment">Apartment</option>
-                            <option value="business">Business</option>
-                            <option value="campus">Campus</option>
-                            <option value="hotel">Hotel</option>
-                            <option value="dorm">Dorm</option>
-                            <option value="other">Other</option>
-                        </select><span id="deliveryAddressTypeError"></span><br>
-                        <div id="deliveryOtherAddress">
-                            <label for="deliveryAddressKind">What type of Address?</label>
-                            <input type="text" id="deliveryAddressKind" /><br>
-                        </div>
-                        <label>Street Address:</label>
-                        <input type="text" name="streetAddress" id="deliveryStreetAddress"><span id="deliveryStreetAddressError"></span><br>
-                        <label>Optional Apartment Number:</label>
-                        <input type="text" name="apartmentNumber" id="deliveryApartmentNumber"><br>
-                        <label>Suite or Room Number:</label>
-                        <input type="text" name="suiteRoomNumber" id="deliverySuiteRoomNum"><br>
-                        <label>City:</label>
-                        <input type="text" name="city" id="deliveryCity"><span id="deliveryCityError"></span><br>
-                        <label>State:</label>
-                        <input type="text" name="state" id="deliveryState"><span id="deliveryStateError"></span><br>
-                        <label>Zip Code:</label>
-                        <input type="text" name="zipCode" id="deliveryZip"><span id="deliveryZipError"></span><br>
-                        <label>Phone Number:</label>
-                        <input type="tel" name="phonenumber" title="Ex: 555-555-5555" id="deliveryPhoneNumber"><span id="deliveryPhoneNumberError"></span><br>
-                        <label>Email:</label>
-                        <input type="email" name="email" id="deliveryEmail"><span id="deliveryEmailError"></span><br>
-                        <br>
-                        <input type="button" id="verifyDeliveryAddress" value="Submit">
-                        <hr>
-                    </span>
-
-                    <span id="doughSpan">
-                        <h4>Build Your Order</h4>
-                        <span id="doughOptionsSpan">
-                            <label>Dough Options:</label><br>
-                            <input type="radio" name="doughOptions" value="Hand Tossed" id="handTossed"><label for="handTossed">Hand Tossed</label><br>
-                            <input type="radio" name="doughOptions" value="Thin Crust" id="thinCrust"><label for="thinCrust">Thin Crust</label><br>
-                            <input type="radio" name="doughOptions" value="New York Style" id="nYStyle"><label for="nYStyle">New York Style</label><br>
-                            <input type="radio" name="doughOptions" value="Gluten Free" id="glutenFree"><label for="glutenFree">Gluten Free</label><br>
-                        </span>
-                    </span>
-                    <!--BEGIN SPAN FOR PIZZA SIZES-->
-                    <span id="pizzaSizePricesSpan">
-                    </span>
-                    <!--END SPAN FOR PIZZA SIZES-->
-                    <span id="toppingsSpan">
-                        <label>Pizza size and price:</label>
-                        <select id="pizzaSizePrices" name="pizzaSizePrices">
-                            <option value="selectPizzaSizePrice">---- Please Select ----</option>
-                        </select><br>
-                        <!--DONT KNOW IF I NEED A PIZZA SIZE PRICE SPAN-->
-                        <span id="pizzaSizePricesError"></span><br>
-                        <label>Cheese Options:</label>
-                        <select name="cheeseOptions" id="cheeseOptions">
-                            <option value="Light Cheese">
-                                <!--cost=0-->Light: no charge</option>
-                            <option value="Normal Cheese">
-                                <!--cost = 0-->Normal(default): no charge</option>
-                            <option value="Extra Cheese $2.99">
-                                <!-- cost = 2.99-->Extra: +$2.99</option>
-                            <option value="Double Cheese $3.99">
-                                <!--cost = 3.99-->Double: +$3.99</option>
-                        </select><br>
-                        <label>Sauce Options:</label>
-                        <select name="sauceOptions" id="sauceOptions">
-                            <option>Regular Tomato: no charge</option>
-                            <option>Hearty Tomato: +$.99</option>
-                            <option>BBQ Sauce: +$1.99</option>
-                        </select>
-                        <hr>
-                        <span id="extraToppingsSpan">
-                            <table>
-                                <th>
-                                    <label>Toppings:</label>
-                                </th>
-                                <th>
-                                    <p>$.99 for each topping.</p>
-                                </th>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="pepperoni" value="Pepperoni">
-                                    </td>
-                                    <td>
-                                        <label for="pepperoni">Pepperoni</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="sausage" value="Sausage">
-                                    </td>
-                                    <td>
-                                        <label for="sausage">Sausage</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="ham" value="Ham">
-                                    </td>
-                                    <td>
-                                        <label for="ham">Ham</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="bacon" value="Bacon">
-                                    </td>
-                                    <td>
-                                        <label for="bacon">Bacon</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="salami" value="Salami">
-                                    </td>
-                                    <td>
-                                        <label for="salami">Salami</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="peppers" value="Peppers">
-                                    </td>
-                                    <td>
-                                        <label for="peppers">Peppers</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="olives" value="Olives">
-                                    </td>
-                                    <td>
-                                        <label for="olives">Olives</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="jalapenos" value="Jalapenos">
-                                    </td>
-                                    <td>
-                                        <label for="jalapenos">Jalapenos</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="mushrooms" value="Mushrooms">
-                                    </td>
-                                    <td>
-                                        <label for="mushrooms">Mushrooms</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="pineapple" value="Pineapple">
-                                    </td>
-                                    <td>
-                                        <label for="pineapple">Pineapple</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="checkbox" name="toppings" id="onion" value="Onion">
-                                    </td>
-                                    <td>
-                                        <label for="onion">Onion</label>
-                                    </td>
-                                </tr>
-                            </table><br>
-                        </span>
-                        <hr>
-                        <input type="button" id="finishBuildingPizza" value="Finish Building Pizza">
-                        <!--proceedToBilling-->
-                        <!--Proceed to Billing-->
-                    </span>
-                    <span id="orderAndBillingSpan">
-                        <h4>Billing Information</h4>
-                        <span>
-                            <input type="checkbox" name="sameAsDeliveryInfo" id="sameAs" value="sameAs">
-                            <label for="sameAs">Same as Delivery Information</label>
-                        </span><br><br>
-                        <label>Name:</label>
-                        <input type="text" name="billingName" id="billingName"><span id="billingNameError"></span><br>
-                        <label>Address Type:</label>
-                        <select name="addresstype" id="billingAddressType">
-                            <option value="selectAddress">--- Please Select ---</option>
-                            <option value="house">House</option>
-                            <option value="apartment">Apartment</option>
-                            <option value="business">Business</option>
-                            <option value="campus">Campus</option>
-                            <option value="hotel">Hotel</option>
-                            <option value="dorm">Dorm</option>
-                            <option value="other">Other</option>
-                        </select><span id="billingAddressTypeError"></span><br>
-                        <div id=billingOtherAddress>
-                            <label for="addressTypeBilling">What type of Address?</label>
-                            <input type="text" id="addressTypeBilling" /><br>
-                        </div>
-                        <label>Street Address:</label>
-                        <input type="text" name="streetAddress" id="billingStreetAddress"><span id="billingStreetAddressError"></span><br>
-
-                        <label>Optional Apartment Number:</label>
-                        <input type="text" name="apartmentNumber" id="billingApartmentNumber"><br>
-
-                        <label>Suite or Room Number:</label>
-                        <input type="text" name="suiteRoomNumber" id="billingSuiteRoomNum"><br>
-
-                        <label>City:</label>
-                        <input type="text" name="city" id="billingCity"><span id="billingCityError"></span><br>
-
-                        <label>State:</label>
-                        <input type="text" name="state" id="billingState"><span id="billingStateError"></span><br>
-
-                        <label>Zip Code:</label>
-                        <input type="text" name="zipCode" id="billingZip"><span id="billingZipError"></span><br>
-
-                        <hr>
-                        <h4>Payment Information</h4><br>
-                        <label>Credit Card Information:</label>
-                        <input type="text" name="creditCardInfo" id="creditCardNumber"><span id="creditCardNumberError"></span><br>
-
-                        <label>CVC Code:</label>
-                        <input type="text" name="cvcCode" id="cvcCode"><span id="billingCvcError"></span><br>
-
-                        <label>Expiration Date:</label>
-                        <select name="expirationDate" id="expirationDate">
-                            <option>2019</option>
-                            <option>2020</option>
-                            <option>2021</option>
-                            <option>2022</option>
-                            <option>2023</option>
-                        </select><span id="billingExpirationDateError"></span>
-                        <br>
-                        <button id="submitOrder">Submit Order</button>
-                        <hr>
-                    </span>
-                </form>
             </div>
+            <!--<div class="col-sx-1 col-sm-0 col-md-0"></div>-->
+
+            <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-sm-pull-3 col-md-6 col-md-offset-0 col-md-pull-4" id = "doughSpanColumn">
+                <!--END DETAILS SPAN-->
+                <span id="doughSpan">
+                    <h4>Build Your Order</h4>
+                    <span id="doughOptionsSpan">
+                        <label>Dough Options:</label><br>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="doughOptions" value="Hand Tossed" id="handTossed"><label for="handTossed">Hand
+                                        Tossed</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="doughOptions" value="Thin Crust" id="thinCrust"><label for="thinCrust">Thin
+                                        Crust</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="doughOptions" value="New York Style" id="nYStyle"><label for="nYStyle">New
+                                        York Style</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="doughOptions" value="Gluten Free" id="glutenFree"><label for="glutenFree">Gluten Free</label>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- END DOUGH OPTIONS SPAN-->
+                    </span>
+                    <!--DOUGH SPAN-->
+                </span>
+
+                <!--BEGIN SPAN FOR PIZZA SIZES-->
+                <span id="pizzaSizePricesSpan">
+                </span>
+                <!--END SPAN FOR PIZZA SIZES-->
+                <!--BEGIN TOPPINGS SPAN-->
+                <span id="toppingsSpan">
+                    <label class="selectionLabels">Pizza size and price:</label>
+                    <!--<br>-->
+                    <select id="pizzaSizePrices" name="pizzaSizePrices">
+                        <option value="selectPizzaSizePrice">---- Please Select ----</option>
+                    </select><br>
+                    <label class="selectionLabels">Cheese Options:</label>
+                    <!--<br>-->
+                    <select name="cheeseOptions" id="cheeseOptions">
+                        <option value="Light Cheese">
+                            <!--cost=0-->Light: no charge</option>
+                        <option value="Normal Cheese">
+                            <!--cost = 0-->Normal(default): no charge</option>
+                        <option value="Extra Cheese $2.99">
+                            <!-- cost = 2.99-->Extra: +$2.99</option>
+                        <option value="Double Cheese $3.99">
+                            <!--cost = 3.99-->Double: +$3.99</option>
+                    </select><br>
+                    <label class="selectionLabels">Sauce Options:</label>
+                    <!--<br>-->
+                    <select name="sauceOptions" id="sauceOptions">
+                        <option>Regular Tomato: no charge</option>
+                        <option>Hearty Tomato: +$.99</option>
+                        <option>BBQ Sauce: +$1.99</option>
+                    </select><br>
+                    <!--<hr>-->
+                    <span id="extraToppingsSpan">
+                        <label>Toppings: $.99 for each topping.</label>
+                        <table id="toppingsTable">
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="pepperoni" value="Pepperoni">
+                                </td>
+                                <td>
+                                    <label for="pepperoni">Pepperoni</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="sausage" value="Sausage">
+                                </td>
+                                <td>
+                                    <label for="sausage">Sausage</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="ham" value="Ham">
+                                </td>
+                                <td>
+                                    <label for="ham">Ham</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="bacon" value="Bacon">
+                                </td>
+                                <td>
+                                    <label for="bacon">Bacon</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="salami" value="Salami">
+                                </td>
+                                <td>
+                                    <label for="salami">Salami</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="peppers" value="Peppers">
+                                </td>
+                                <td>
+                                    <label for="peppers">Peppers</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="olives" value="Olives">
+                                </td>
+                                <td>
+                                    <label for="olives">Olives</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="jalapenos" value="Jalapenos">
+                                </td>
+                                <td>
+                                    <label for="jalapenos">Jalapenos</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="mushrooms" value="Mushrooms">
+                                </td>
+                                <td>
+                                    <label for="mushrooms">Mushrooms</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="pineapple" value="Pineapple">
+                                </td>
+                                <td>
+                                    <label for="pineapple">Pineapple</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="toppings" id="onion" value="Onion">
+                                </td>
+                                <td>
+                                    <label for="onion">Onion</label>
+                                </td>
+                            </tr>
+                        </table><br>
+                        <!--END TOPPING SPAN-->
+                    </span>
+                    <!--<hr>-->
+                    <input type="button" id="finishBuildingPizza" value="Finish Building Pizza">
+                    <!--END TOPPINGS SPAN-->
+                </span>
+                <!--BEGIN ORDER AND BILLING SPAN-->
+                <span id="orderAndBillingSpan">
+                    <h4>Billing Information</h4>
+                    <!--SPAN FOR KEEPING THE CHECKBOX AND LABEL TOGETHER-->
+                    <span>
+                        <input type="checkbox" name="sameAsDeliveryInfo" id="sameAs" value="sameAs">
+                        <label for="sameAs">Same as Delivery Information</label><br>
+                    </span>
+                    <br>
+                    <label class='billingLabels'>Name:</label>
+                    <!--<br>-->
+                    <input type="text" name="billingName" id="billingName"><span id="billingNameError"></span><br>
+                    <label class='billingLabels'>Address Type:</label>
+                    <!--<br>-->
+                    <select name="addresstype" id="billingAddressType">
+                        <option value="selectAddress">--- Please Select ---</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="business">Business</option>
+                        <option value="campus">Campus</option>
+                        <option value="hotel">Hotel</option>
+                        <option value="dorm">Dorm</option>
+                        <option value="other">Other</option>
+                    </select><span id="billingAddressTypeError"></span><br>
+                    <div id=billingOtherAddress>
+                        <label class='billingLabels' for="addressTypeBilling">What type of Address?</label>
+                        <!--<br>-->
+                        <input type="text" id="addressTypeBilling" /><br>
+                    </div>
+                    <label class='billingLabels'>Street Address:</label>
+                    <!--<br>-->
+                    <input type="text" name="streetAddress" id="billingStreetAddress"><span id="billingStreetAddressError"></span><br>
+
+                    <label class='billingLabels'>Optional Apartment Number:</label>
+                    <!--<br>-->
+                    <input type="text" name="apartmentNumber" id="billingApartmentNumber"><br>
+
+                    <label class='billingLabels'>Suite or Room Number:</label>
+                    <!--<br>-->
+                    <input type="text" name="suiteRoomNumber" id="billingSuiteRoomNum"><br>
+
+                    <label class='billingLabels'>City:</label>
+                    <!--<br>-->
+                    <input type="text" name="city" id="billingCity"><span id="billingCityError"></span><br>
+
+                    <label class='billingLabels'>State:</label>
+                    <!--<br>-->
+                    <input type="text" name="state" id="billingState"><span id="billingStateError"></span><br>
+
+                    <label class='billingLabels'>Zip Code:</label>
+                    <!--<br>-->
+                    <input type="text" name="zipCode" id="billingZip"><span id="billingZipError"></span><br>
+
+                    <hr>
+                    <h4>Payment Information</h4><br>
+                    <label class='billingLabels'>Credit Card Information:</label>
+                    <!--<br>-->
+                    <input type="text" name="creditCardInfo" id="creditCardNumber"><span id="creditCardNumberError"></span><br>
+
+                    <label class='billingLabels'>CVC Code:</label>
+                    <!--<br>-->
+                    <input type="text" name="cvcCode" id="cvcCode"><span id="billingCvcError"></span><br>
+
+                    <label class='billingLabels'>Expiration Date:</label>
+                    <!--<br>-->
+                    <select name="expirationDate" id="expirationDate">
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                    </select><span id="billingExpirationDateError"></span>
+                    <br>
+                    <button id="submitOrder">Submit Order</button>
+
+                    <!--END ORDER AND BILLING SPAN-->
+                </span>
+                <!--END OF DOUGH OPTIONS, TOPPING SPAN, EXTRA TOPPING SPAN, AND BILLING SPAN COL-->
+            </div>
+            <!--EMPTY COL-->
+            <div class="col-xs-1 col-sm-2 col-md-1"></div>
         </div>
-        
+
+
         <footer class="footer">
             <p>Peace O' Pie © 2019, Inc.</p>
         </footer>
 
-    </div> 
+    </div> <!-- /container -->
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./index_files/ie10-viewport-bug-workaround.js.download"></script>
-    <!--MAIN JS-->
-    <script src="script/script.js"></script>
-
-
+    <script src="js/script.js"></script>
+    <script>
+ 
+    </script>
 </body>
 
 </html>

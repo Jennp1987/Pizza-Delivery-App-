@@ -1,0 +1,743 @@
+body {
+    font-size: 1.2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 600px;
+
+}
+
+#logo {
+    max-height: 100px;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.container {}
+
+#backgroundImage,
+body > div > div.header.clearfix,
+body > div > footer {
+    border-radius: 6px;
+
+}
+
+body > div > div.header.clearfix {
+    margin-bottom: 0;
+}
+
+#initialSpan > div {
+    border-radius: 0;
+}
+
+/*ROW FOR DOUGH SPAN, DOUGH OPTIONS, TOPPINGS, EXTRA TOPPINGS*/
+body > div > div:nth-child(4) {
+    margin-top: 0;
+}
+
+body > div > div:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.header {
+    text-align: center;
+    background-color: #ff3a22;
+    padding-top: 1.2em;
+    margin-bottom: 0;
+}
+
+#initialSpan h3 {
+    /*margin: .2em;*/
+
+}
+
+#deliverySpan,
+#doughSpan,
+#pizzaSizePricesSpan,
+#toppingsSpan,
+#orderAndBillingSpan,
+#orderDetails {
+    display: none;
+}
+
+#orderDetails {
+    padding: 0 .5em;
+    text-align: center;
+    /*margin-left: 1em;*/
+}
+
+#deliveryOtherAddress,
+#billingOtherAddress {
+    display: none;
+}
+
+#deliverySpan span,
+#billingNameError,
+#billingNameError,
+#billingAddressTypeError,
+#billingStreetAddressError,
+#billingCityError,
+#billingStateError,
+#billingZipError,
+#creditCardNumberError,
+#billingCvcError,
+#billingExpirationDateError {
+    color: red;
+}
+
+
+#sauceOptions {
+    margin-bottom: 2em;
+}
+
+
+#toppingOneOrderDetails,
+#toppingTwoOrderDetails,
+#toppingThreeOrderDetails,
+#toppingFourOrderDetails,
+#toppingFiveOrderDetails,
+#toppingSixOrderDetails,
+#toppingSevenOrderDetails,
+#toppingEightOrderDetails,
+#toppingNineOrderDetails,
+#toppingTenOrderDetails,
+#toppingElevenOrderDetails {
+    display: none;
+}
+
+.container .jumbotron {
+    padding: 0;
+}
+
+
+
+
+#initialSpan > div {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#backgroundImage {
+    padding-top: 3%;
+    padding-bottom: 97%;
+    background-image: url('/images/pizza_bkground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+}
+
+.text-block {
+    background-color: black;
+    padding: 0 1.2em;
+    font-weight: bold;
+    font-size: 3.4em;
+    color: white;
+}
+
+h1 {
+    font-size: 5em;
+    background-color: black;
+    font-weight: bold;
+    border: solid 5px white;
+    color: white;
+}
+
+h2 {}
+
+.tagline h3,
+h3 {
+    margin: .5em 0 .5em 0;
+    font-size: 2em;
+    font-weight: bolder;
+
+}
+
+.tagline {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#doughSpan {
+    margin-bottom: 1em;
+
+}
+
+/*HR*/
+#toppingsSpan > hr:nth-child(11) {
+    margin-top: 1.5em;
+
+}
+
+#pizzaSizePricesSpan,
+#finishBuildingPizza {
+    clear: both;
+}
+
+label {
+    height: 1.5em;
+
+}
+
+
+.formLabels,
+.billingLabels {
+    width: 48%;
+    text-align: left;
+}
+
+.selectionLabels {
+    width: 48%;
+}
+
+/*BILLING LABELS*/
+/*.billingLabels{
+    width: 48%;
+}*/
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+#deliveryOtherAddress #deliveryAddressKind {
+    width: 15em;
+    margin-bottom: .7em;
+    margin-right: ;
+    border: 1px solid #d1d1d1;
+    padding: .3em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 1.3em;
+}
+
+#pizzaSizePrices,
+#cheeseOptions,
+#sauceOptions {
+    padding-left: .5em;
+}
+
+#deliveryAddressType,
+#billingAddressType {
+    padding-left: 2em;
+}
+
+#expirationDate {
+    padding-left: 5em;
+}
+
+input[type="button"],
+#submitOrder {
+    text-align: center;
+    font-size: 1.3em;
+    padding: .4em;
+    background-color: black;
+    border: solid 2px #d3b32a;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#submitOrder {
+    margin-top: 1em;
+}
+
+input[type="button"]:hover,
+#submitOrder:hover,
+input[type="button"]:focus,
+#submitOrder:focus {
+    background-color: #f9d643;
+    border: solid black 2px;
+    border-radius: 5px;
+    color: black;
+}
+
+.footer {
+    background-color: #ff3a22;
+    text-align: center;
+    padding-bottom: .3em;
+}
+
+.footer p {
+    color: white;
+
+}
+
+.phaseCrustType {
+    /*margin-left: 0;*/
+}
+
+@media only screen and (min-width: 1200px) {
+    .phaseCrustType {
+        margin-left: 20.5em !important;
+    }
+
+    .phaseDoughColumn {
+        width: 55% !important;
+    }
+
+    #doughSpanColumn {
+        padding-right: 0;
+    }
+    #orderAndBillingSpan{
+        padding-right: /*20px*/;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .phaseCrustType {
+        margin-left: 20.5em !important;
+    }
+
+    .phaseDoughColumn {
+        width: 55% !important;
+    }
+
+    #doughSpanColumn {
+        padding-right: 0;
+    }
+    #orderAndBillingSpan{
+        padding-right: px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 1.3em;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    .text-block {
+        font-size: 3.2em;
+    }
+
+    .phaseCrustType {
+        margin-left: 13.3em !important;
+    }
+
+    #doughSpan > h4 {
+        font-size: 1.3em;
+    }
+
+    .phaseDoughColumn {
+        width: 50%;
+    }
+
+    .billingLabels {
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        width: 16em;
+    }
+
+    #sameAs {
+        margin-right: .9em;
+    }
+
+    #displayCost h3 {
+        font-size: 1.5em;
+    }
+}
+
+/*
+@media only screen and (min-width: 767px)
+*/
+/*WAS 630px*/
+/*XS*/
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 1.4em
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    .text-block {
+        font-size: 3.4em;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        width: 17em;
+    }
+
+    labels,
+    #handTossed,
+    #thinCrust,
+    #nYStyle,
+    #glutenFree,
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        margin-bottom: 1.3em;
+    }
+
+    #toppingsTable td {
+        height: 2.5em;
+    }
+
+
+    .phaseCrustType {
+        margin-left: 13em !important;
+    }
+
+    #orderDetails {
+        margin-bottom: 1.2em;
+    }
+
+    .phaseDoughColumn
+
+    /*.col-xs-10*/
+        {
+        /*padding-left: 60px;
+    }*/
+    }
+}
+
+@media only screen and (min-width: 594px) and (max-width: 655px) {
+    body {
+        font-size: 1.6em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .phaseCrustType {
+        margin-left: 9em !important;
+    }
+
+    .formLabels,
+    .billingLabels {
+        width: 100%;
+
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        width: 98%;
+        height: 3em;
+    }
+
+    .phaseCrustTypeInToppings,
+    #toppingsTable {
+        margin-left: 8em;
+    }
+
+    #extraToppingsSpan,
+    #finishBuildingPizza {
+        margin-left: 5em;
+    }
+
+}
+
+@media only screen and (min-width: 520px) and (max-width: 593px) {
+    body {
+        font-size: 1.8em;
+    }
+
+    h1 {
+        font-size: 3.9em;
+
+    }
+
+    .text-block {
+        font-size: 3em;
+    }
+
+    .phaseCrustType {
+        margin-left: 6em !important;
+    }
+
+    .formLabels,
+    .selectionLabels,
+    .billingLabels {
+        width: 100%;
+
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        width: 95%;
+        height: 3em;
+    }
+    .col-sm-10{
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 472px) and (max-width: 519px) {
+    body {
+        font-size: 1.9em;
+        padding-top: 0 !important;
+    }
+
+    .container {
+        padding: 0px;
+
+    }
+
+    .marketing {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2.9em;
+    }
+
+    .formLabels,
+    .selectionLabels,
+    .billingLabels {
+        width: 100%;
+
+    }
+
+    .text-block {
+        font-size: 2.8em;
+    }
+
+    .phaseCrustType {
+        margin-left: 4em !important;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        width: 95%;
+        height: 3em;
+    }
+
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 471px) {
+    body {
+        font-size: 1.6em;
+        padding-top: 0 !important;
+    }
+
+    .container {
+        padding: 0px;
+
+    }
+
+    .marketing {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2.9em;
+    }
+
+    .tagline {
+        font-size: 1.6em;
+
+    }
+
+    .formLabels,
+    .selectionLabels,
+    .billingLabels {
+        width: 100%;
+
+    }
+
+    .text-block {
+        font-size: 2.8em;
+    }
+
+    .phaseCrustType {
+        margin-left: 4em !important;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        width: 95%;
+        height: 3em;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+    body {
+        font-size: 1.5em;
+        padding-top: 0 !important;
+    }
+
+    .container {
+        padding: 0px;
+
+    }
+
+    .marketing {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2.9em;
+    }
+
+    .tagline {
+        font-size: 1.6em;
+
+    }
+
+    .formLabels,
+    .selectionLabels,
+    .billingLabels {
+        width: 100%;
+
+    }
+
+    .text-block {
+        font-size: 2.8em;
+    }
+
+    .phaseCrustType {
+        margin-left: 4em !important;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        width: 95%;
+        height: 3em;
+    }
+
+}
+
+@media only screen and (min-width: 290px) and (max-width: 374px) {
+    body {
+        font-size: 1.3em;
+        padding-top: 0 !important;
+    }
+
+    .container {
+        padding: 0px;
+
+    }
+
+    .marketing {
+        margin: 0 !important;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .tagline {
+        font-size: 1.4em;
+
+    }
+
+    .text-block {
+        font-size: 2em;
+    }
+
+    /*row marketing*/
+    body > div > div:nth-child(3) {
+        padding: 0 !important;
+    }
+    #deliverySpan, body > div > div:nth-child(4){
+        margin-top: 1.3em !important;
+        padding: 0 !important;
+    }
+
+    .formLabels,
+    .selectionLabels,
+    .billingLabels {
+        width: 100%;
+
+    }
+
+    #verifyDeliveryAddress,
+    #finishBuildingPizza, #submitOrder {
+        margin-bottom: 1.3em;
+    }
+
+    .phaseCrustType {
+        margin-left: 4em !important;
+    }
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    #deliveryAddressType,
+    #deliveryOtherAddress #deliveryAddressKind,
+    select,
+    #billingAddressType,
+    #expirationDate {
+        width: 95%;
+        height: 3em;
+    }
+    .col-xs-10 {
+        padding: 0 !important;
+    }
+
+}
