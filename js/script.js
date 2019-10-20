@@ -67,11 +67,10 @@ function updateDisplay() {
             doughSpan.classList.toggle("phaseCrustType");
             doughSpanColumn.classList.toggle("phaseDoughColumn");
             
-        }
-        else if (phase !== phases.crustType) {
-           doughSpan.style.marginLeft = "0em"; 
-           doughSpan.classList.remove("phaseCrustType");
-           doughSpanColumn.classList.remove("phaseDoughColumn");
+        } else if (phase !== phases.crustType) {
+            doughSpan.style.marginLeft = "0em"; 
+            doughSpan.classList.remove("phaseCrustType");
+            doughSpanColumn.classList.remove("phaseDoughColumn");
             
         }
         
@@ -99,10 +98,9 @@ function updateDisplay() {
             doughSpan.classList.toggle("phaseCrustTypeInToppings");
            
             
-        }
-        else if (phase !== phases.crustToppings) {
-           doughSpan.style.marginLeft = "0em"; 
-           doughSpan.classList.remove("phaseCrustTypeInToppings");
+        } else if (phase !== phases.crustToppings) {
+            doughSpan.style.marginLeft = "0em"; 
+            doughSpan.classList.remove("phaseCrustTypeInToppings");
            
             
         }
