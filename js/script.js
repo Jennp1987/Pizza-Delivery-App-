@@ -274,7 +274,7 @@ function verifyDeliveryAddress() {
         $('deliveryEmailError').innerHTML = "";
     }
     //REMOVE - JUST FOR TESTING AND TO BYPASS DELIVERY VALIDATION
-    nextPhase(phases.deliveryAddress);
+    //nextPhase(phases.deliveryAddress);
 
     if (problem) {
         return;
