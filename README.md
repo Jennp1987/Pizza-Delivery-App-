@@ -18,7 +18,6 @@ Image of Billing Information for Desktop
 ![](images/billingInfoDesktop.png)
 
 Image of Billing Information for Mobile
-![](images/billingMobile.png)
 <img src="images/billingMobile.png" width="479">
 
 
