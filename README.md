@@ -2,7 +2,7 @@
 Peace O' Pie Pizza Delivery Order Form
 
 Image of the beginning of the Pizza Order Form
-![](images/enterPizzaApp.png)
+![](images/enterPizzaDeliveryApp.png)
 
 Image of Delivery Form Information for Desktop
 ![](images/deliveryInfoDesktop.png)
