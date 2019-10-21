@@ -12,12 +12,13 @@ Image of Pizza Crust and Toppings Order Form for Desktop
 
 Image of Pizza Crust and Toppings Order Form for Mobile
 <img src="images/pizzaTypeMobile.png" width="479">
-![](images/pizzaTypeMobile.png)
+
 
 Image of Billing Information for Desktop
 ![](images/billingInfoDesktop.png)
 
 Image of Billing Information for Mobile
 ![](images/billingMobile.png)
+<img src="images/billingMobile.png" width="479">
 
 
