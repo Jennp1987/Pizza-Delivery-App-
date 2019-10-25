@@ -709,7 +709,8 @@ function verifyBillingInfo() {
     }
 
 }
-// visa 4123456789012
+// visa 4123456789012 invalid
+// 4512113014643252 valid
 function luhnTest(number) {
     "use strict";
     if (number.length < 13) {
