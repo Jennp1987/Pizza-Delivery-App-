@@ -293,12 +293,12 @@ function finishPizzaConfirmation() {
 }
 
 //VARIFIES FINAL ORDER
-function placeOrder() {
+/*function placeOrder() {
     "use strict";
     //KEEPS FORM SUBMITTING
     return false;
 
-}
+}*/
 
 var pizzaSizePrices = {
 
@@ -802,7 +802,7 @@ function init() {
     //EVENT LISTENER FOR SUBMIT ORDER BILLING INFO
     $('submitOrder').addEventListener("click", verifyBillingInfo);
     //SUBMITS PLACE ORDER
-    $('orderPizzaForm').onsubmit = placeOrder;
+    /*$('orderPizzaForm').onsubmit = placeOrder;*/
 
 }
 
