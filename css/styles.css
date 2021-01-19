@@ -113,14 +113,13 @@ body > div > div:nth-child(3) {
 #backgroundImage {
     padding-top: 3%;
     padding-bottom: 97%;
-/*    background-image: url('https://jennp1987.github.io/Pizza-Delivery-App-/images/pizza_bkground.png'); */
 	background-image: url('https://jennp1987.github.io/Pizza-Delivery-App-/images/pizza_bkground.png');
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
+	/*    background-image: url('https://jennp1987.github.io/Pizza-Delivery-App-/images/pizza_bkground.png'); */
 
 }
 
