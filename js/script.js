@@ -98,16 +98,16 @@ function updateDisplay() {
         orderAndBillingSpan.style.display = "none";
         orderDetails.style.display = "block";
         orderDetails.style.border = "1px black solid";
-        // if (phase === phases.crustToppings) {
-        //     doughSpan.classList.toggle("phaseCrustTypeInToppings");
+        if (phase === phases.crustToppings) {
+            doughSpan.classList.toggle("phaseCrustTypeInToppings");
            
             
-        // } else if (phase !== phases.crustToppings) {
-        //     doughSpan.style.marginLeft = "0em"; 
-        //     doughSpan.classList.remove("phaseCrustTypeInToppings");
+        } else if (phase !== phases.crustToppings) {
+            doughSpan.style.marginLeft = "0em"; 
+            doughSpan.classList.remove("phaseCrustTypeInToppings");
            
             
-        // }
+        }
 
 
 
