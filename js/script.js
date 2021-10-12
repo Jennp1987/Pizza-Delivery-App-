@@ -64,10 +64,14 @@ function updateDisplay() {
         orderDetails.style.display = "block";
         orderDetails.style.border = "none";
         if (phase === phases.crustType) {
+            //FOR STYLING 
+            //phaseCrustType FOR ADDED MARGIN
             doughSpan.classList.toggle("phaseCrustType");
+            //phaseDoughColumn FOR ADJUSTING WIDTH
             doughSpanColumn.classList.toggle("phaseDoughColumn");
             
         } else if (phase !== phases.crustType) {
+            //REMOVING STYLES WHEN OUT OF PHASE
             doughSpan.style.marginLeft = "0em"; 
             doughSpan.classList.remove("phaseCrustType");
             doughSpanColumn.classList.remove("phaseDoughColumn");
@@ -94,16 +98,16 @@ function updateDisplay() {
         orderAndBillingSpan.style.display = "none";
         orderDetails.style.display = "block";
         orderDetails.style.border = "1px black solid";
-        if (phase === phases.crustToppings) {
-            doughSpan.classList.toggle("phaseCrustTypeInToppings");
+        // if (phase === phases.crustToppings) {
+        //     doughSpan.classList.toggle("phaseCrustTypeInToppings");
            
             
-        } else if (phase !== phases.crustToppings) {
-            doughSpan.style.marginLeft = "0em"; 
-            doughSpan.classList.remove("phaseCrustTypeInToppings");
+        // } else if (phase !== phases.crustToppings) {
+        //     doughSpan.style.marginLeft = "0em"; 
+        //     doughSpan.classList.remove("phaseCrustTypeInToppings");
            
             
-        }
+        // }
 
 
 
