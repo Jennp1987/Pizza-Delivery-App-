@@ -99,17 +99,14 @@ function updateDisplay() {
         orderDetails.style.display = "block";
         orderDetails.style.border = "1px black solid";
         if (phase === phases.crustToppings) {
+            //TO CENTER TOPPINGS FOR TABLET
             doughSpan.classList.toggle("phaseCrustTypeInToppings");
            
             
         } else if (phase !== phases.crustToppings) {
             doughSpan.style.marginLeft = "0em"; 
-            doughSpan.classList.remove("phaseCrustTypeInToppings");
-           
-            
+            doughSpan.classList.remove("phaseCrustTypeInToppings");  
         }
-
-
 
     } else if (phase === phases.billingInfo) { //BILLING INFO
         deliverySpan.style.display = "none";
@@ -380,6 +377,7 @@ function verifyDoughOption() {
     }
 
     sizePrice = pizzaSizePrices[doughType];
+    console.log(sizePrice);
 
     //CLEAR SELECTION
     for (i = 0; i < selection.options.length; i += 1) {
