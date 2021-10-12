@@ -375,7 +375,7 @@ function verifyDoughOption() {
         updateOrder();
         return;
     }
-
+    //  GETS THE DOUGH TYPE, SIZE AND PRICES
     sizePrice = pizzaSizePrices[doughType];
     console.log(sizePrice);
 
@@ -393,6 +393,7 @@ function verifyDoughOption() {
         currentPizzaPrices.push(sizePrice[i].price);
         option = document.createElement('option');
         option.text = s;
+        //ADDING OPTIONS TO THE SELECT BOX
         selection.add(option);
     }
     // ADD TO SELECTION 
@@ -415,6 +416,7 @@ function getDoughChoiceCheckedValue() {
 //GETS VALUE OF pizzaSizePrices
 function getDoughChoiceCheckedCost() {
     "use strict";
+    console.log(currentPizzaPrices[$('pizzaSizePrices').selectedIndex]);
     return currentPizzaPrices[$('pizzaSizePrices').selectedIndex];
 
 }
