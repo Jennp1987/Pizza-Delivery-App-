@@ -698,6 +698,7 @@ function verifyBillingInfo() {
         $('creditCardNumberError').innerHTML = "";
     }
     if (cvcCode.length !== 3) {
+        console.log(cvcCode.length);
         $('billingCvcError').innerHTML = "CVC is invalid";
         problem = true; 
         
