@@ -809,7 +809,7 @@ function init() {
     //EVENT LISTENER FOR SUBMIT ORDER BILLING INFO
     $('submitOrder').addEventListener("click", verifyBillingInfo);
     //SUBMITS PLACE ORDER
-    $('orderPizzaForm').onsubmit = placeOrder;
+    $('orderPizzaForm').onsubmit = placeOrder();
 
 }
 
