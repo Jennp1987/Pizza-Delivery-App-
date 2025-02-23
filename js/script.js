@@ -294,12 +294,12 @@ function finishPizzaConfirmation() {
 }
 
 //VARIFIES FINAL ORDER
-/*function placeOrder() {
+function placeOrder() {
     "use strict";
     //KEEPS FORM SUBMITTING
     return false;
 
-}*/
+}
 
 var pizzaSizePrices = {
 
