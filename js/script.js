@@ -697,7 +697,7 @@ function verifyBillingInfo() {
     } else {
         $('creditCardNumberError').innerHTML = "";
     }
-    /*if (cvcCode.length !== 3) {
+    if (cvcCode.length !== 3) {
         $('billingCvcError').innerHTML = "CVC is invalid";
         problem = true; 
         
@@ -706,7 +706,7 @@ function verifyBillingInfo() {
         problem = true;
     } else {
         $('billingCvcError').innerHTML = "";    
-    }*/
+    }
 
     if (problem) {
         return;
