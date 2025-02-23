@@ -621,7 +621,7 @@ function verifyBillingInfo() {
         billingZip = $('billingZip').value,
         billingZipRegex = /^\d{5}$|^\d{5}-\d{4}$/,
         creditCardNumber = $('creditCardNumber').value,
-        creditCardNumberRegex = /^[0-9]+$/;
+        creditCardNumberRegex = /^[0-9]+$/,
         cvcCode = $('cvcCode');
 
     //BILLING NAME
