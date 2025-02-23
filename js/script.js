@@ -711,6 +711,7 @@ function verifyBillingInfo() {
     }
 
     if (problem) {
+        console.log('problem at verify billing info');
         return;
     }
 
