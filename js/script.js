@@ -296,9 +296,9 @@ function finishPizzaConfirmation() {
 //VARIFIES FINAL ORDER
 function placeOrder() {
     "use strict";
-    console.log('Submitted Order');
+    //console.log('Submitted Order');
     //KEEPS FORM SUBMITTING
-    return true;
+    return false;
 
 }
 
