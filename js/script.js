@@ -296,7 +296,6 @@ function finishPizzaConfirmation() {
 //VARIFIES FINAL ORDER
 function placeOrder() {
     "use strict";
-    //console.log('Submitted Order');
     //KEEPS FORM SUBMITTING
     return false;
 
@@ -809,7 +808,7 @@ function init() {
     //EVENT LISTENER FOR SUBMIT ORDER BILLING INFO
     $('submitOrder').addEventListener("click", verifyBillingInfo);
     //SUBMITS PLACE ORDER
-    $('orderPizzaForm').onsubmit = placeOrder();
+    //$('orderPizzaForm').onsubmit = placeOrder();
 
 }
 
